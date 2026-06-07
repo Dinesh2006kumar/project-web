@@ -21,7 +21,7 @@ function updateTime(){
 }
 startBtn.addEventListener("click",function(){
     if(!running){
-        timer=timer = setInterval(updateTime, 1000);
+        timer = setInterval(updateTime, 1000);
         isRunning = true;
     }
 });
