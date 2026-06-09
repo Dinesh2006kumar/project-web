@@ -1,0 +1,138 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.game{
+    width:500px;
+    height:600px;
+    background-color: black;
+    color:white;
+    margin:75px;
+    border:2px solid transparent;
+    border-radius:40px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width:90%;
+    display:flex;
+    align-items: center;
+}
+.top{
+    height:50px;
+    margin-bottom:20px;
+    justify-content: center;
+    font-size:25px;
+    color:aqua   
+}
+.mid1{
+    display:flex;
+    flex-direction: row;
+    height:200px;
+    margin-bottom:20px;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  
+    border-radius:20px;
+}
+.boxy{
+    height:100px;
+    width:100px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border:3px solid transparent;
+    border-radius:50%;
+}
+
+#rock{
+    margin-top: 60px;
+    background-color:rgb(245, 233, 235);
+    color:black;
+}
+#rock:hover{
+    background-color:black;
+    color:white;
+}
+#paper{
+    margin-top:10px;
+    background-color:gray;
+
+}
+#paper:hover{
+    background-color:black;
+    color:white;
+}
+#Scissor{
+    margin-top:60px;
+    background-color: brown;
+}
+#Scissor:hover{
+    background-color:black;
+    color:white;
+}
+.boxy:hover{
+    border:3px solid aqua;
+}
+.mid2{
+    height:100px;
+    margin-bottom:20px;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.box1{
+    height:75px;
+    width:120px;
+    font-size:20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color: aquamarine;
+}
+.bb{
+    width:100%;
+    height:50px;
+    border:2px solid white;
+    border-radius:5px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size:25px;
+}
+.bottom{
+    height:120px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+#result{
+    width:80%;
+    height:50px;
+    border:2px solid rgb(241, 232, 232);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:10px;
+    border-radius:10px;
+}
+#reset{
+    width:30%;
+    height:50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border:2px solid transparent;;
+    background-color: bisque;
+    color:black;
+    border-radius:10px;
+    margin-top:20px;
+}
+#reset:hover{
+    border:2px solid aqua;
+    background-color:transparent;
+    color:white;
+}
