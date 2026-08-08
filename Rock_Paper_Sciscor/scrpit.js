@@ -40,7 +40,7 @@ function playGame(){
     if(users=="pk"){
         if(compus=="pk"){
             result.innerHTML="Draw";
-            result.style.backgroundColor="yellow";
+            result.style.backgroundColor="pink";
             result.style.color="black";
         }else if(compus=="rk"){
              result.innerHTML="Winner";
